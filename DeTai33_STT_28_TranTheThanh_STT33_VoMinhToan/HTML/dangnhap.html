@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="../JS/jquery-3.5.1.min.js"></script>
+    <script src="../JS/bootstrap.min.js"></script>
+    <script src="../JS/index.js"></script>
+    <title>Đăng Nhập</title>
+</head>
+<body>
+    <div class="bg-top-head" >
+        <div id="top-nav" class="container">
+            <ul>
+                <li><a href="index.html">Tin Tức</a></li>
+                <li><a href="index.html">Kênh Người Bán</a></li>
+                <li><a href="#">Tra Cứu Đơn Hàng</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Tài Khoản <span class="fa fa-user-circle-o" aria-hidden="true"></span></a>
+                    <ul>
+                        <li><a href="dangnhap.html">Đăng Nhập</a></li>
+                        <li><a href="dangky.html">Đăng Kí</a></li>
+                    </ul>
+                </li>
+                <li><a href="index.html">Giỏ Hàng <span class="fa fa-shopping-cart" aria-hidden="true"></span></a></li>
+            </ul>
+         </div>
+</div>
+    <header id="header" class="header">
+        <div id="logo" class="container">
+                <div class="hotline">
+                    <div>
+                        <span class="fa fa-phone"></span>
+                        <span> Hotline <a href="#">099999909</a></span><br>
+                    </div>
+                    <span class="fa fa-volume-control-phone" aria-hidden="true"></span>
+                    <span>Tổng Đài: <a href="#">19000211221</a></span>
+                </div>
+                <a href="index.html"><img src="../IMG/logo.png" alt="" width="200px" height="100px"></a>
+                <div id="search">
+                    <input type="text" placeholder="Tìm kiếm sản phẩm">
+                    <button  type="button" class="fa fa-search" aria-hidden="true"></button>
+                </div>
+        </div>
+    </header>
+    <nav>
+        <div id="menu" class="container">
+            <ul>
+                <li><a href="index.html">Trang Chủ <i class="fa fa-home" aria-hidden="true"  ></i></a></li>
+                <li><a href="index.html">Top Thương Hiệu</a></li>
+                <li><a href="#">Giới Tính</a>
+                    <ul>
+                        <li><a href="nuochoanam.html">Giới Tính Nam</a></li>
+                        <li><a href="nuochoanu.html">Giới Tính Nữ</a></li>
+                    </ul>
+                </li>
+                <li><a href="index.html">Nhóm Hương</a></li>
+                <li><a href="index.html">Nồng Độ</a></li>
+                <li><a href="index.html">Dung Tích</a></li>
+                <li><a href="Khuyenmai.html">Khuyến Mãi</a></li>
+                <li><a href="index.html">Thanh Lí</a></li>
+                <li><a href="index.html">Sản Phẩm Bán Chạy</a></li>
+                <li><a href="index.html">Quốc Gia</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div>
+        <div class="container">
+            <div id="signin-wrapper">
+                <div class="form-left">
+                <form action="">
+                    <h2> Đăng Nhập Bằng</h2>
+                    <div id="icon-fonts">
+                        <a id="social-link" href="facebook.com"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
+                        <a id="social-link" href="google.com"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a> <br>
+                    </div>
+                    <span id="or"> Hoặc Đăng Nhập Bằng Email</span>
+                    <div id="input-gr">
+                        <label for="">Email</label>
+                        <sup>*</sup>
+                        <input type="email" class="nhap" id="nhapEmail">
+                    </div>
+                    <div id="input-gr">
+                        <label for="">Mật Khẩu </label>
+                        <sup>*</sup>
+                        <input type="password" class="nhap" id="nhapMK" pattern="(?=.*\d).{6,}" title="Phải có chữ, số và ít nhất 6 ký tự">
+                    </div>
+                    <div id="input-gr" class="flex-gr">
+                        <label for="">
+                            <input type="checkbox" name="" id="">
+                            <span>Nhớ mật khẩu</span>
+                        </label>
+                        <a id="foget" href="#">Quên Mật Khẩu?</a>
+                    </div>
+                    <button type="submit" id="subDN">Đăng Nhập</button>
+                </form>
+                </div>
+                <div class="form-right">
+                    <h2>Khách Hàng Đăng Ký Mới</h2>
+                    <p>Bằng cách tạo tài khoản với NewStore, bạn sẽ có thể di chuyển qua quy trình <b> thanh toán nhanh hơn, lưu trữ nhiều địa chỉ giao hàng</b>, xem và theo dõi đơn hàng của bạn trong tài khoản của bạn và hơn thế nữa.</p>
+                    <a href="dangky.html">Đăng Ký Ngay</a>
+                </div>
+           </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container footer-links">
+            <div class="items-footer">
+                    <h2>Thông Tin Về Chúng Tôi</h2>
+                <div>
+                    <ul><li><p><i class="fa fa-map-marker" aria-hidden="true"></i> Địa Chỉ: 945/14 Tân Sơn , Gò Vấp , Thành Phố Hồ Chí Minh</p></li></ul>
+                    <ul><li><p><i class="fa fa-phone" aria-hidden="true"></i> Điện Thoại : 038.709.7651</p></li></ul>
+                    <ul><li> <p><i class="fa fa-envelope-o" aria-hidden="true"></i> Email: tranthethanh852002@gmail.com</p> </li></ul>
+                    <ul><li> <p><i class="fa fa-id-card-o" aria-hidden="true"></i> Mã Số Sinh Viên: 20083661</p> </li></ul>
+                    <ul><li> <p><i class="fa fa-id-card-o" aria-hidden="true"></i> Mã Doanh Nghiệp: 010141321312 Do Nhà Nước Cấp Phép</p> </li></ul>
+                    <a href="#"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-telegram fa-2x" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="items-footer">
+                    <h2>Chăm Sóc Khách Hàng</h2>
+                <div>
+                    <ul> <li> <a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i> Chính Sách Thanh Toán</a></li></ul>
+                    <ul> <li> <a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i> Chính Sách Bảo Hành</a></li></ul>
+                    <ul> <li> <a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i> Chính Sách Đổi Trả Hàng </a></li></ul>
+                    <ul> <li> <a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i> Chính Sách Vận Chuyển</a></li></ul>
+                    <ul> <li> <a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i> Chính Sách Bảo Mật</a></li></ul>
+                </div>
+            </div>
+            <div class="items-footer">
+                <h2>Trợ Giúp</h2>
+                <div>
+                    <ul> <li> <a href="#"> Hướng Dẫn Sử Dụng Nước Hoa</a></li></ul>
+                    <ul> <li> <a href="#"> Hướng Dẫn Mua Hàng</a></li></ul>
+                    <ul> <li> <a href="#"> Hướng Dẫn Đổi Trả</a></li></ul>
+                    <ul> <li> <a href="#"> Hướng Dẫn Thanh Toán</a></li></ul>
+                    <ul> <li> <a href="#"> Gói quà Miễn Phí</a></li></ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
